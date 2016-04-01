@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sound"
+            android:icon="@drawable/ic_menu_sound"
+            android:title="Sound" />
+        <item
+            android:id="@+id/nav_preference"
+            android:icon="@drawable/ic_menu_preference"
+            android:title="Preference" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_menu_info"
+                android:title="Info" />
+        </menu>
+    </item>
+
+</menu>
