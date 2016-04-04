@@ -2,6 +2,8 @@ package com.example.chogle.autoalarm.model;
 
 /**
  * Created by chogle on 2016/3/31.
+ *
+ * 城市类
  */
 public class City {
     private int id;

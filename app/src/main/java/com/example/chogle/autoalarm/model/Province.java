@@ -2,6 +2,8 @@ package com.example.chogle.autoalarm.model;
 
 /**
  * Created by chogle on 2016/4/1.
+ *
+ * 省份类
  */
 public class Province {
     private int id;

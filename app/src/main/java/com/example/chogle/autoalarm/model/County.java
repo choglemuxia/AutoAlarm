@@ -2,6 +2,8 @@ package com.example.chogle.autoalarm.model;
 
 /**
  * Created by chogle on 2016/4/1.
+ *
+ * 县城类
  */
 public class County {
     private int id;

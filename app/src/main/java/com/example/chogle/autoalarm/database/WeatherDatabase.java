@@ -14,13 +14,15 @@ import java.util.List;
 
 /**
  * Created by chogle on 2016/4/1.
+ *
+ * 天气信息数据库类
  */
 public class WeatherDatabase {
 
     /**
      * 数据库名称
      */
-    public static final String DB_NAME = "weather";
+    public static final String WEATHER_DB_NAME = "weather.db";
 
     /**
      * 数据库版本
@@ -35,7 +37,7 @@ public class WeatherDatabase {
      * 构造方法私有化
      */
     private  WeatherDatabase(Context context){
-        WeatherDatabaseOpenHelper dbHelper = new WeatherDatabaseOpenHelper(context, DB_NAME,null,VERSION);
+        WeatherDatabaseOpenHelper dbHelper = new WeatherDatabaseOpenHelper(context, WEATHER_DB_NAME,null,VERSION);
         db = dbHelper.getWritableDatabase();
     }
 

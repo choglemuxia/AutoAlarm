@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * Created by chogle on 2016/3/31.
+ *
+ * 建立天气信息数据库的SQLiteOpenHelper
  */
 public class WeatherDatabaseOpenHelper extends SQLiteOpenHelper {
     /**
